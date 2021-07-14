@@ -1,0 +1,11 @@
+framework module MyFirstPodLib {
+  umbrella header "MyFirstPodLib.h"
+
+  export *
+  module * { export * }
+}
+
+module MyFirstPodLib.Swift {
+    header "MyFirstPodLib-Swift.h"
+    requires objc
+}
