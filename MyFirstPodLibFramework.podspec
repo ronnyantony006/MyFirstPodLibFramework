@@ -16,11 +16,11 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MyFirstPodLibFramework"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "This is a short description of MyFirstPodLibFramework created in Swift."
 
   spec.description  = <<-DESC
-This is a pod created in Swift. This helps to easily add two numbers. Try this out and send us you r feedback. We can make it better.
+This is a pod created in Swift. This helps to easily add two numbers. Hooray, we have added subtraction feature too. Now you can easily subtract two integers. Try this out and send us your feedback. We can make it better.
                    DESC
 
   spec.homepage     = "https://github.com/ronnyantony006/MyFirstPodLibFramework"
@@ -37,9 +37,6 @@ This is a pod created in Swift. This helps to easily add two numbers. Try this o
   spec.source       = { :git => "https://github.com/ronnyantony006/MyFirstPodLibFramework.git", :tag => "#{spec.version}" }
 
  spec.vendored_frameworks = "MyFirstPodLib.framework"
-
-
- # spec.source_files  = "MyPublicFirstPodLib/MyPublicFirstPodLib/Classes/**/*"
 
 
 
